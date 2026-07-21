@@ -30,7 +30,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <img src="Digital-Marketing.jpg" alt="Digital marketing " title="Digital Marketing Course">
 </head>
 <body>
   <header class="navbar" id="navbar">
@@ -47,10 +46,11 @@
       </button>
 
       <nav class="navbar__nav" id="navMenu">
-        <h1 class="hero__title">Digital Marketing Blog</h1>
-        <a href="#about" class="nav-link" data-section="about">About</a>
-        <a href="#courses" class="nav-link" data-section="courses">Courses</a>
-        <button type="button" class="btn btn-primary" data-scroll="contact">Get Started</button>
+        <a href="index.html" class="nav-link">Home</a>
+<a href="index.html#about" class="nav-link">About</a>
+<a href="blog.html" class="nav-link">Blog</a>
+<a href="index.html#courses" class="nav-link">Courses</a>
+<a href="index.html#contact" class="nav-link">Contact</a>
       </nav>
     </div>
   </header>
@@ -69,50 +69,42 @@
 
   </div>
 </section>
-    <section class="section">
+    <section class="section section--alt">
   <div class="container">
 
     <div class="section-header">
-      <h1 class="section-title">Digital Marketing Blog</h1>
+      <h2 class="section-title">Latest Articles</h2>
+    </div>
 
-      <p class="section-subtitle">
-        Practical SEO, Google Ads, Meta Ads and Email Marketing guides for beginners.
-      </p>
+    <div class="courses__grid">
+
+      <article class="course-card">
+        <h3 class="course-card__title">SEO for Beginners</h3>
+
+        <p class="course-card__desc">
+          Learn the basics of SEO, keyword research, on-page SEO and technical SEO.
+        </p>
+
+        <a href="seo.html" class="course-card__link">
+          Read More →
+        </a>
+      </article>
+      <article class="course-card">
+  <h3 class="course-card__title">Google Ads for Beginners</h3>
+  <p class="course-card__desc">
+    Understand campaign types, keyword bidding, Quality Score and how to launch your first ad.
+  </p>
+  <a href="google-ads.html" class="course-card__link">
+    Read More →
+  </a>
+</article>
+
     </div>
 
   </div>
 </section>
     
-    <section class="hero">
-  <div class="container hero__inner">
-
-    <div class="hero__content">
-
-      <p class="hero__eyebrow">Digital Marketing Blog</p>
-
-      <h1 class="hero__title">
-        Learn Digital Marketing with Practical Guides
-      </h1>
-
-      <p class="hero__subtitle">
-        Beginner-friendly articles on SEO, Google Ads, Meta Ads, Email Marketing,
-        Analytics, and more.
-      </p>
-
-      <div class="hero__actions">
-        <a href="#articles" class="btn btn-primary btn-lg">
-          Explore Articles
-        </a>
-
-        <a href="index.html" class="btn btn-outline btn-lg">
-          Back to Home
-        </a>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+    
       </main>
 
   <footer class="footer">
