@@ -39,12 +39,13 @@
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"EducationalOrganization",
-  "name":"Easy to Learn",
-  "url":"https://easy-to-learn-murex.vercel.app/",
-  "logo":"https://easy-to-learn-murex.vercel.app/logo.svg",
-  "description":"Learn digital marketing from scratch with beginner-friendly courses in SEO, Social Media Marketing, Google Ads, Email Marketing and Analytics."
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Vijeth Digital",
+  "url": "https://easy-to-learn-murex.vercel.app/",
+  "logo": "https://easy-to-learn-murex.vercel.app/logo.svg",
+  "description": "Vijeth Digital provides SEO, Technical SEO, Website SEO Audits, Keyword Research, On-Page SEO, and Off-Page SEO services.",
+  "email": "mailto:vijeth8778@gmail.com"
 }
 </script>
 </head>
@@ -65,7 +66,7 @@
       <nav class="navbar__nav" id="navMenu">
         <a href="#about" class="nav-link" data-section="about">About</a>
         <a href="blog.html" class="nav-link" data-section="blog">Blog</a>
-        <a href="#Services" class="nav-link" data-section="Services">Services</a>
+       <a href="#services" class="nav-link" data-section="services">Services</a>
         <button type="button" class="btn btn-primary" data-scroll="contact">Free Consultation</button>
       </nav>
     </div>
@@ -84,17 +85,20 @@
          </p>
           <div class="hero__actions">
             <button type="button" class="btn btn-primary btn-lg" data-scroll="contact">Free Consultation</button>
-            <a href="#courses" class="btn btn-outline btn-lg" data-scroll="courses">view Services</a>
+            <a href="#services" class="btn btn-outline btn-lg" data-scroll="services">view services</a>
           </div>
         </div>
         <div class="hero__visual" aria-hidden="true">
           <div class="hero__card">
-            <span class="hero__stat">6+</span>
-            <span class="hero__stat-label">Expert Courses</span>
+    <span class="hero__stat">SEO</span>
+    <span class="hero__stat-label">Website Optimization</span>
+      </div>
+            
           </div>
           <div class="hero__card hero__card--accent">
-            <span class="hero__stat">100%</span>
-            <span class="hero__stat-label">Beginner Friendly</span>
+    <span class="hero__stat">SEO</span>
+    <span class="hero__stat-label">Audit &amp; Strategy</span>
+</div>
           </div>
         </div>
       </div>
@@ -145,7 +149,7 @@
       </div>
     </section>
 
-    <section id="Services" class="courses section section--alt">
+    <section id="services" class="courses section section--alt">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Our Services</h2>
@@ -280,8 +284,8 @@ Professional digital marketing services designed to help your business grow onli
    <section id="contact" class="contact section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Get Started Today</h2>
-          <p class="section-subtitle">Fill out the form below and we'll help you choose the right course</p>
+          <h2 class="section-title">Get Your Free Consultation</h2>
+          <p class="section-subtitle">Tell us about your business and we'll discuss the right SEO and digital marketing solution</p>
         </div>
         <div class="contact__wrapper">
          <form
@@ -302,8 +306,8 @@ Professional digital marketing services designed to help your business grow onli
               <span class="form-error" id="emailError"></span>
             </div>
             <div class="form-group">
-              <label for="course">Course Interest</label>
-              <select id="course" name="course">
+              <label for="service">Service Required</label>
+              <select id="service" name="service">
                 <option value="">Select a course (optional)</option>
                 <option value="seo">SEO Fundamentals</option>
                 <option value="social">Social Media Marketing</option>
@@ -323,7 +327,7 @@ Professional digital marketing services designed to help your business grow onli
           <div class="form-success" id="formSuccess" hidden>
             <div class="form-success__icon" aria-hidden="true">✓</div>
             <h3>Message Sent!</h3>
-            <p>Thanks! We'll reach you at <strong>vijeth8778@gmail.com</strong> shortly.</p>
+            <p>Thanks! Your inquiry has been received. We'll contact you shortly to discuss your requirements <strong>vijeth8778@gmail.com</strong> shortly.</p>
             <button type="button" class="btn btn-outline" id="resetForm">Send Another Message</button>
           </div>
         </div>
