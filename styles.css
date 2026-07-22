@@ -753,3 +753,28 @@ button {
   display: block;
   margin: 20px auto 30px;
 }
+.error-icon {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+.error-code {
+  font-size: 90px;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+.error-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .error-icon {
+    font-size: 50px;
+  }
+  .error-code {
+    font-size: 48px;
+  }
+  .error-title {
+    font-size: 24px;
+  }
+}
