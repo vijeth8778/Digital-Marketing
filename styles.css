@@ -682,3 +682,13 @@ button {
     display:block;
     border-radius:16px;
 }
+.course-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.view-all-btn{
+    display: inline-block;
+    width: fit-content;
+    margin: 20px auto 0;
+}
