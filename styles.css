@@ -725,3 +725,43 @@ button {
 .footer__links a:hover {
   opacity: 0.8;
 }
+/* ===== Privacy Policy ===== */
+
+.hero--small {
+  padding: 150px 0 70px;
+}
+
+.policy-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,.08);
+  border: 1px solid var(--color-border);
+}
+
+.policy-card h2 {
+  margin-top: 35px;
+  margin-bottom: 12px;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+}
+
+.policy-card p,
+.policy-card li {
+  color: var(--color-text-muted);
+  line-height: 1.9;
+}
+
+.policy-card ul {
+  list-style: disc;
+  padding-left: 22px;
+  margin-top: 12px;
+}
+
+@media (max-width:768px){
+  .policy-card{
+    padding:25px;
+  }
+}
