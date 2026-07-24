@@ -657,3 +657,19 @@ button {
     padding: 1.5rem;
   }
 }
+.consultation-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 30px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.consultation-btn:hover {
+  background: #1e40af;
+  transform: translateY(-2px);
+}
