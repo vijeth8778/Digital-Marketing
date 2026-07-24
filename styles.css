@@ -692,3 +692,21 @@ button {
     width: fit-content;
     margin: 20px auto 0;
 }
+.view-all-wrapper {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.view-all-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.view-all-btn:hover {
+  background: #1e40af;
+}
