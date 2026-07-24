@@ -673,3 +673,14 @@ button {
   background: #1e40af;
   transform: translateY(-2px);
 }
+/* ===== Blog Article Images ===== */
+.article-image {
+  width: 100%;
+  max-width: 700px;   /* Change this value to make images smaller or larger */
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
