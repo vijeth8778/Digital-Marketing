@@ -40,5 +40,9 @@
     <loc>https://easy-to-learn-murex.vercel.app/google-analytics.html</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+  <loc>https://easy-to-learn-murex.vercel.app/terms-and-copyright.html</loc>
+  <priority>0.3</priority>
+</url>
 
 </urlset>
