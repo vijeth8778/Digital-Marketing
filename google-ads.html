@@ -109,6 +109,34 @@
   ]
 }
 </script>
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://easy-to-learn-murex.vercel.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://easy-to-learn-murex.vercel.app/blog.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Google Ads for Beginners",
+      "item": "https://easy-to-learn-murex.vercel.app/google-ads.html"
+    }
+  ]
+}
+</script>
+</head>
 </head>
 <body>
   <header class="navbar" id="navbar">
@@ -130,7 +158,13 @@
 
   <main>
     <section class="section">
-      <div class="container" style="max-width: 760px;">
+    <div class="container" style="max-width: 760px;">
+
+        <nav aria-label="Breadcrumb" style="font-size: 0.875rem; color: #64748b; margin-bottom: 1rem;">
+          <a href="/" style="color: #64748b;">Home</a> ›
+          <a href="blog.html" style="color: #64748b;">Blog</a> ›
+          <span style="color: #1e293b;">Google Ads for Beginners</span>
+        </nav>
 
         <h1 class="section-title">Google Ads for Beginners</h1>
         <p class="section-subtitle" style="text-align:left; margin-bottom: 0.5rem;">
