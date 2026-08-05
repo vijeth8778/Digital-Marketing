@@ -18,5 +18,28 @@
 .footer-contact a:hover {
   color: #0A66C2; /* LinkedIn blue */
 }
+.footer__contact p {
+  margin: 5px 0;
+}
+
+.footer__contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__contact a:hover {
+  color: #0A66C2; /* LinkedIn blue */
+}
+
+.footer__links a {
+  margin: 0 10px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  color: #fff;
+}
+
 
 
