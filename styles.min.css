@@ -6,4 +6,17 @@
 #contact a:hover {
   color: #0A66C2; /* LinkedIn blue */
 }
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-contact a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #0A66C2; /* LinkedIn blue */
+}
+
 
