@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +15,7 @@
   <link rel="canonical" href="https://easy-to-learn-murex.vercel.app/">
 
   <!-- Favicon -->
-  <link rel="icon" href="logo.svg" type="svg+xml">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
 
   <!-- Open Graph Tags -->
   <meta property="og:type" content="website">
@@ -122,7 +124,7 @@
   </noscript>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/styles.min.css">
+  <link rel="stylesheet" href="styles.min.css">
 
   <!-- Google Analytics -->
   <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-7C42LFZFBS"></script>
@@ -132,5 +134,66 @@
     gtag('js', new Date());
     gtag('config', 'G-7C42LFZFBS');
   </script>
-
 </head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="logo">
+        <img src="logo.svg" alt="Vijeth Digital Logo" class="logo__icon" width="40" height="40">
+        <span class="logo__text">Vijeth Digital</span>
+      </a>
+      <button class="navbar__toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="blog.html" class="nav-link" data-section="blog">Blog</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="#services" class="nav-link" data-section="services">Services</a>
+        <button type="button" class="btn btn-primary" data-scroll="contact">Free Consultation</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Digital Marketing Services</p>
+          <h1 class="hero__title">Digital Marketing Services for Small Business — SEO & Growth Strategies</h1>
+          <p class="hero__subtitle">Not ready to book a service? Start learning for free with our beginner guides.</p>
+          <div class="hero__actions">
+            <button type="button" class="btn btn-primary btn-lg" data-scroll="contact">Free Consultation</button>
+            <a href="#services" class="btn btn-outline btn-lg" data-scroll="services">View Services</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__card">
+            <span class="hero__stat">SEO</span>
+            <span class="hero__stat-label">Website Optimization</span>
+          </div>
+          <div class="hero__card hero__card--accent">
+            <span class="hero__stat">SEO</span>
+            <span class="hero__stat-label">Audit &amp; Strategy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why Choose Vijeth Digital</h2>
+          <p class="section-subtitle">A results-driven approach to SEO and digital marketing, built on real experience.</p>
+        </div>
+        <div class="about__grid">
+          <div class="about__content">
+            <p>Hi, I'm <strong>Vijeth</strong>, the founder of Vijeth Digital. I started this agency because too many small businesses get lost in generic marketing advice that doesn't actually move the needle. My approach is simple: understand your business first, then build an SEO and marketing strategy around what will genuinely grow it.</p>
+            <p>This website itself is a working example of the SEO practices I apply for clients — built, optimized, and indexed from the ground up using the same technical SEO, content strategy, and structured data techniques I bring to every project.</p>
+            <ul class="about__list">
+              <li>Hands-on SEO & Technical SEO implementation — not just theory</li>
+              <li>Transparent reporting so you always know what's working</li>
+              <li>Strategies tailored to your specific business, not templated packages</li>
+              <li>Direct communication — you work with me, not a
